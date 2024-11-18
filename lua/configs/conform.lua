@@ -15,6 +15,7 @@ local options = {
         "-",
       },
     },
+    golang = { "golines" },
   },
 
   format_on_save = {
