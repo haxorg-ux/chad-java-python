@@ -18,10 +18,6 @@ M.ui = {
     order = { "buffers", "tabs", "btns" },
     lazyload = false,
   },
-  -- statusline = {
-  --   theme = "minimal",
-  --   separator_style = "round",
-  -- },
 }
 
 M.nvdash = {
