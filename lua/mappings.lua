@@ -27,7 +27,7 @@ vim.keymap.set("n", "<RightMouse>", function()
   require("menu").open(options, { mouse = true })
 end, {})
 
-map('n', '<leader>m', '<cmd>lua require("minty.huefy").open()<CR>', { noremap = true, silent = true })
+map('n', '<leader>mh', '<cmd>lua require("minty.huefy").open()<CR>', { noremap = true, silent = true })
 map('n', '<leader>oh', '<cmd>lua require("minty.shades").open()<CR>', { noremap = true, silent = true })
 
 vim.api.nvim_create_user_command("OpenShowkeys", function()
