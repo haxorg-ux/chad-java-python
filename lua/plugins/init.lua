@@ -143,6 +143,7 @@ return {
             "__pycache__/",
             "%.pyc",
             "lazy%-lock.json",
+            ".mypy_cache",
           },
         },
       }))
